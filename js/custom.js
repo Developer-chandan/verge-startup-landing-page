@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
           }
       });
-  }, { threshold: 0.5 }); // Adjust the threshold as needed
+  }, { threshold: 0.2 }); // Adjust the threshold as needed
 
   images.forEach(image => {
       observer.observe(image);
