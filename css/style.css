@@ -731,3 +731,55 @@ label.form-check-label a {
     display: flex;
     justify-content: end;
 }
+
+
+.papers_container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.paperwrap h2,
+.paperwrap h3{
+color: #FFF;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 1.5rem;
+}
+
+.paperwrap h3{
+    font-size: 40px;
+    margin-top: 3rem;
+}
+
+.paperwrap p,
+.paperwrap ol,
+.paperwrap li{
+color: #C2BBD7;;
+}
+
+section#terms_wrapp {
+    padding: 0 2rem;
+    padding-top: 9rem;
+    margin-bottom: 8rem;
+}
+.paperwrap ul,
+.paperwrap ol{
+    margin-left: 2rem;
+}
+.paperwrap li{
+    list-style:circle;
+}
+.paperwrap ol li{
+    list-style:number;
+}
+
+header {
+    margin-top: 1.8625rem;
+}
+.visible-image {
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    transform: translateY(200px);
+}

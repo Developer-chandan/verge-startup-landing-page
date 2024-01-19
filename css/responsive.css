@@ -140,8 +140,8 @@ margin-top: 12rem;
     }
     #hero_area_wrap .images .left_images {
         left: -81px;
-        width: 73%;
-        top: 2vh;
+        width: 69%;
+        top: 9vh;
         z-index: -9999;
     }
     .hero_content h1 {
@@ -161,9 +161,9 @@ margin-top: 12rem;
         position: absolute;
         left: initial;
         top: -123px;
-        width: 95vw;
+        width: 170vw;
         z-index: -99999;
-        height: 94vh;
+        height: 105vh;
         right: 0;
     }
     #hero_area_wrap .images .right_images {
@@ -271,7 +271,9 @@ margin-top: 12rem;
     }
     .mobile_menu ul.soical_links {
      
-        margin-bottom: 1rem;
+margin-bottom: 1rem;
+     
+justify-content: center;
     }
     .sm_menu_logo {
         margin-top: 3rem;
@@ -325,8 +327,19 @@ margin-top: 12rem;
     }
     .hero_shape_shadow img {
         width: 100%;
-        height: 89vh;
+        height: 118vh;
         transform: scaleX(-1);
+    }
+    .paperwrap h2, .paperwrap h3 {
+        
+        font-size: 40px;
+        
+    }
+    .paperwrap h3{
+        font-size: 30px;
+    }
+    .desc_logo img {
+        width: 45px;
     }
 }
 
@@ -451,7 +464,7 @@ margin-top: 12rem;
    
     
     .hero_content h1 {
-        font-size: 2.25rem;
+        font-size: 3.25rem;
     }
     .apple_store small, .play_store small {
         font-size: 8px;
@@ -469,7 +482,7 @@ margin-top: 12rem;
     #hero_area_wrap .images .left_images {
         left: -65px;
         width: 73%;
-        top: 4vh;
+        top: 15vh;
     }
     
   }
@@ -621,6 +634,9 @@ margin-top: 12rem;
         font-size: 2.25rem;
         line-height: 100%;
         margin-bottom: 1.68rem;
+    }
+    .hero_content h1 {
+        font-size: 2.25rem;
     }
   }
 
