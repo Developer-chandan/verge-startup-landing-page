@@ -181,7 +181,122 @@ margin-top: 12rem;
     }
   }
 
+@media(max-width:992px){
+    nav.navbar {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        border-radius: 38.5px;
+        background: rgba(41, 40, 56, 0.70);
+        box-shadow: 0px 2px 3px 0px rgba(154, 154, 154, 0.15) inset;
+        backdrop-filter: blur(10px);
+        padding-left: 13px;
+        padding-right: 13px;
+        position: fixed;
+        width: 97%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 71px;
+        z-index: 99999;
+    }
+    button.navbar-toggler {
+        position: absolute;
+        right: 18px;
+        top: 17px;
+    }
+    .nav_CTA {
+        display: flex;
+        gap: 14px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+    }
+    .mobile_menu{
+        display: block;
+        width: 100%;
+        padding: 0rem;
+        text-align: center;
+        background: #1E1432;
+        position: absolute;
+        top: -30px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 3rem;
+        display: none;
+    }
+    .large_screen_menu{
+        display: none;
+    }
+    .mobile_M_CTA.nav_CTA {
+        display: block;
+        position: absolute;
+        top: 13px;
+        display: flex;
+        gap: 12px;
+    }
+    .mobile_M_CTA.nav_CTA .btn {
+        font-size: 12px;
+        font-weight: 600;
+        padding: 13px 20px;
+    }
+    
+    .mobile_M_CTA.nav_CTA .btn.btn-custom-radial {
+        padding: 13px 24px;
+    }
+    .f_btm_left p.menu_copyright{
+        color: var(--white);
+        font-size: 21px;
+        font-weight: 400;
+        font-family: 'RoobertPROReg';
+    }
+    .mobile_menu li.nav-item .nav-link {
+        font-size: 24px;
+    }
+    
+    .mobile_menu ul {
+        margin-top: 3rem;
+    }
+    
+    .mobile_menu .apps_CTA_wrap {
+        margin-top: 4rem;
+    }
+    .mobile_menu .apps_CTA_wrap {
+        gap: 13px;
+    }
+    
+    .mobile_menu button {
+        border: none;
+    }
+    .mobile_menu ul.soical_links {
+     
+        margin-bottom: 1rem;
+    }
+    .sm_menu_logo {
+        margin-top: 3rem;
+    }
 
+    .mobile_menu.show{
+        display: block;
+    }
+    .mobile_menu.hide{
+        display: none;
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+        outline: none;
+        border: none;
+    }
+    button.navbar-toggler.navbar_toggle_line {
+        width: 50px;
+        height: 33px;
+    }
+    
+    button.navbar-toggler.navbar_toggle_line svg {
+        width: 45px;
+    }
+}
 
   @media(max-width: 768px){
     .apps_CTA_wrap {
@@ -308,7 +423,7 @@ margin-top: 12rem;
         display: none;
     }
     a.navbar-brand img {
-        max-width: 44px;
+        max-width: 37px;
     }
     .hero_content h1 {
         font-size: 2.25rem;
