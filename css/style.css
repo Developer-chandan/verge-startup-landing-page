@@ -127,7 +127,7 @@ a.navbar-brand img {
     position: relative;
 }
 
-#hero_area_wrap .images img.left_images {
+#hero_area_wrap .images .left_images {
     position: absolute;
     left: -138px;
     width: 51%;
@@ -135,7 +135,7 @@ a.navbar-brand img {
     z-index: -10;
 }
 
-#hero_area_wrap .images img.right_images {
+#hero_area_wrap .images .right_images {
     position: absolute;
     right: 0px;
     width: 45%;
@@ -149,7 +149,9 @@ a.navbar-brand img {
     width: 98vw;
     z-index: -9979;
 }
-
+.hero_shape_shadow img {
+    width: 100%;
+}
 .hero_content h1 {
     font-size: 7.56rem;
     color: var(--white);
@@ -641,7 +643,7 @@ ul.soical_links {
 .modal-content{
     border-radius: 30px;
     background: #E8E1FF;
-    width: 540px;
+    max-width: 540px;
     padding: 75px 49px 50px 50px;
 }
 form.contact_popup_wrap h2 {
@@ -713,11 +715,16 @@ label.form-check-label a {
     position: absolute;
     top: 16px;
     right: 21px;
+    z-index: 9999;
 }
 
 .modal-header button {
     border: none;
     background: transparent;
+}
+.modal-header button svg{
+   
+    width: 80px;
 }
 
 .submit_btn {

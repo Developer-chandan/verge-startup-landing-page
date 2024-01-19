@@ -7,7 +7,7 @@
     .hero_content { padding-top: 14%; }
     .apple_store h6, .play_store h6 { font-size: 1rem; }
     .hero_content h1:first-child { margin-left: -27%; }
-    #hero_area_wrap .images img.left_images { position: absolute; left: -109px; width: 51%; top: 3rem; }
+    #hero_area_wrap .images .left_images { position: absolute; left: -109px; width: 51%; top: 3rem; }
     .hero_content h1:last-child { margin-left: 27%; }
     .apps_CTA_wrap { gap: 23px; }
     .apple_store svg, .play_store svg { width: 1.6125rem; }
@@ -138,10 +138,11 @@ margin-top: 12rem;
         display: flex;
         cursor: grab;
     }
-    #hero_area_wrap .images img.left_images {
+    #hero_area_wrap .images .left_images {
         left: -81px;
         width: 73%;
         top: 2vh;
+        z-index: -9999;
     }
     .hero_content h1 {
         font-size: 4rem;
@@ -149,7 +150,7 @@ margin-top: 12rem;
     .hero_content {
         padding-top: 35vh;
     }
-    #hero_area_wrap .images img.right_images {
+    #hero_area_wrap .images .right_images {
         position: absolute;
         right: 0px;
         width: 53%;
@@ -161,11 +162,11 @@ margin-top: 12rem;
         left: initial;
         top: -123px;
         width: 95vw;
-        z-index: -9979;
+        z-index: -99999;
         height: 94vh;
         right: 0;
     }
-    #hero_area_wrap .images img.right_images {
+    #hero_area_wrap .images .right_images {
         position: absolute;
         right: 0px;
         width: 68%;
@@ -236,8 +237,8 @@ margin-top: 12rem;
         gap: 12px;
     }
     .mobile_M_CTA.nav_CTA .btn {
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 13px;
+        /* font-weight: 600; */
         padding: 13px 20px;
     }
     
@@ -296,11 +297,42 @@ margin-top: 12rem;
     button.navbar-toggler.navbar_toggle_line svg {
         width: 45px;
     }
+    .modal-content {
+       
+        padding: 45px 6px 13px 6px;
+        margin-left: 11px;
+        margin-right: 32px;
+    }
+    form.contact_popup_wrap h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .modal-header button svg {
+        width: 42px;
+    }
+    form.contact_popup_wrap p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .img_sm{
+        display: block;
+    }
+    .img_lg{
+        display: none;
+    }
+    a.navbar-brand img {
+        max-width: 37px;
+    }
+    .hero_shape_shadow img {
+        width: 100%;
+        height: 89vh;
+        transform: scaleX(-1);
+    }
 }
 
   @media(max-width: 768px){
     .apps_CTA_wrap {
-        margin-top: 30vh;
+        margin-top: 39vh;
     }
     .feature_img {
         justify-content: center;
@@ -416,15 +448,8 @@ margin-top: 12rem;
         left: -23rem;
         z-index: -1;
     }
-    .img_sm{
-        display: block;
-    }
-    .img_lg{
-        display: none;
-    }
-    a.navbar-brand img {
-        max-width: 37px;
-    }
+   
+    
     .hero_content h1 {
         font-size: 2.25rem;
     }
@@ -441,7 +466,7 @@ margin-top: 12rem;
         gap: 14px;
         padding: 9px 20px;
     }
-    #hero_area_wrap .images img.left_images {
+    #hero_area_wrap .images .left_images {
         left: -65px;
         width: 73%;
         top: 4vh;
@@ -451,27 +476,27 @@ margin-top: 12rem;
 
 
   @media(max-width: 575px) {
-    #hero_area_wrap .images img.left_images {
+    #hero_area_wrap .images .left_images {
         left: -65px;
-        width: 95%;
-        top: 2vh;
+        width: 89%;
+        top: 13vh;
         z-index: -999999;
     }
-    #hero_area_wrap .images img.right_images {
+    #hero_area_wrap .images .right_images {
         position: absolute;
         right: 0px;
-        width: 93%;
-        z-index: -99;
-        top: 39vh;
+        width: 90%;
+        top: 48vh;
     }
     .hero_shape_shadow {
         position: absolute;
         left: initial;
-        top: -157px;
-        width: 140vw;
+        top: -57px;
+        width: 191vw;
         z-index: -999999;
-        height: 93vh;
-        right: 0;
+        height: 124vh;
+        right: 0px;
+        z-index: -999999;
     }
     section#verge_desc {
         margin-top: 9rem;
@@ -587,4 +612,36 @@ margin-top: 12rem;
     .footer_logo img {
         max-width: 149px;
     }
+    .feature_desc p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .feature_desc h1 {
+        color: rgb(255, 255, 255);
+        font-size: 2.25rem;
+        line-height: 100%;
+        margin-bottom: 1.68rem;
+    }
+  }
+
+  @media(max-width: 350px){
+    nav.navbar {
+        padding-left: 1px;
+        padding-right: 7px;
+       
+    }
+    .mobile_M_CTA.nav_CTA .btn {
+        font-size: 13px;
+        /* font-weight: 600; */
+        padding: 12px 18px;
+    }
+
+    .apps_CTA_wrap {
+        gap: 10px;
+    }
+    .play_store, .apple_store {
+        gap: 10px;
+        padding: 8px 15px;
+    }
+    
   }

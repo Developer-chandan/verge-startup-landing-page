@@ -43,13 +43,13 @@
         <div class="collapse navbar-collapse large_screen_menu" id="navbarSupportedContent" >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link" href="#" onclick="hideMenu()">Download</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#" onclick="hideMenu()">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Partners</a>
+              <a class="nav-link" href="#" onclick="hideMenu()">Our Partners</a>
             </li>
 
 
@@ -58,13 +58,13 @@
         </div>
             <!-- large screen CTA start -->
         <div class="nav_CTA">
-          <a href="" class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
+          <a href="" class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="hideMenu()">Contact</a>
           <a href="" class="btn btn-custom-radial">For Venues</a>
         </div>    <!-- mobile screen CTA end -->
          <!-- mobile screen CTA start -->
         <div class="nav_CTA mobile_M_CTA">
-          <a href="" class="btn btn-custom">Venues</a>
-          <a href="" class="btn btn-custom-radial">Download</a>
+          <a href="" class="btn btn-custom" onclick="hideMenu()">Venues</a>
+          <a href="" class="btn btn-custom-radial" onclick="hideMenu()">Download</a>
         </div>    <!-- mobile screen CTA end -->
         <!-- large screen menu end -->
 
@@ -82,16 +82,16 @@
         
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
+              <a class="nav-link" href="#" onclick="hideMenu()">Download</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#" onclick="hideMenu()">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Our Partners</a>
+              <a class="nav-link" href="#" onclick="hideMenu()">Our Partners</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact US</a>
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="hideMenu()">Contact US</a>
             </li>
 
 
@@ -172,7 +172,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="" data-bs-dismiss="modal" aria-label="Close">
-          <svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86" fill="transparent">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 86" fill="transparent">
             <line x1="64.5162" y1="21.7376" x2="21.7378" y2="64.516" stroke="#1E1432"/>
             <line x1="63.8154" y1="64.5193" x2="21.0371" y2="21.741" stroke="#1E1432"/>
           </svg>
@@ -216,10 +216,17 @@
       <div>
 
         <div class="images">
-          <img src="asstes/shape.png" class="hero_shape_shadow" alt="">
+          <div class="hero_shape_shadow">
+            <img src="asstes/shape.png" class="" alt="">
+          </div>
           <!-- <img src="asstes/_shape.png" class="hero_shape_shadow_sm" alt="">  -->
-          <img src="asstes/hero_a.png" class="left_images img-fluid " alt="">
-          <img src="asstes/hero_b.png" class="right_images img-fluid" alt="">
+          
+          <div class="right_images">
+            <img src="asstes/hero_b.png" class=" img-fluid" alt="">
+          </div>
+          <div class="left_images">
+            <img src="asstes/hero_a.png" class=" img-fluid " alt="">
+          </div>
         </div>
         <div class="hero_content">
           <h1>where places</h1>
@@ -438,7 +445,7 @@
           </div>
 
           <div class="nav_CTA">
-            <a href="" class="btn btn-custom">Contact</a>
+            <a href="" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
 
           </div>
         </div>
