@@ -24,7 +24,8 @@
         <nav class="navbar navbar-expand-lg bg-transparent">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="asstes/icons/verge.svg" alt="" class="img-fluid">
+                <img src="asstes/icons/verge.svg" alt="" class="img-fluid img_lg">
+                <img src="asstes/logo.png" alt="" class="img-fluid img_sm">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,8 +53,12 @@
           </nav>
           <section id="hero_area_wrap">
             <div>
+              <!-- <div id="blur_sm">
+                <img src="asstes/shape.png" class="hero_shape_shadow_sm" alt="">
+              </div> -->
                 <div class="images">
                     <img src="asstes/shape.png" class="hero_shape_shadow" alt="">
+                     <!-- <img src="asstes/_shape.png" class="hero_shape_shadow_sm" alt="">  -->
                     <img src="asstes/hero_a.png" class="left_images img-fluid " alt="">
                     <img src="asstes/hero_b.png" class="right_images img-fluid" alt="">
                 </div>
@@ -143,7 +148,8 @@
 <div class="feature_2_container">
   <div class="feature_2_wrap">
     <div class="feature_img">
-      <img src="asstes/feature_two_desktop.png" class="img-fluid" alt="">
+      <img src="asstes/feature_two_desktop.png" class="img-fluid desktop_view" alt="">
+      <img src="asstes/feature_two_mobile.png" class="img-fluid mobile_view" alt="">
     </div>
     <div class="feature_desc">
       <span>Feature 2</span>
@@ -362,8 +368,7 @@
     slidesPerView: 6,
     spaceBetween: 30,
     autoplay: {
-        delay: 2000, // 2 seconds
-        // disableOnInteraction: false,
+        delay: 3000, 
       },
   });
 </script>

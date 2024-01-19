@@ -72,6 +72,9 @@ ul.navbar-nav {
     padding: 0.875rem 1.137rem;
     color: var(--white);
 }
+.img_sm{
+    display: none;
+}
 
 .btn-custom {
     border-radius: 14px;
@@ -619,4 +622,8 @@ ul.soical_links {
 
 .policy_links p a {
     color: rgb(30, 20, 50);
+}
+
+.mobile_view{
+    display: none;
 }

@@ -1,3 +1,6 @@
+
+
+
 @media (max-width: 1919px) {
     .hero_content h1 { font-size: 6rem; line-height: 100%; }
     nav.navbar { margin-left: 5rem; margin-right: 5rem; }
@@ -69,3 +72,404 @@ margin-top: 12rem;
     }
   }
   
+
+  @media (max-width:1400px) {
+    .hero_content h1 {
+        font-size: 5rem;
+    }
+    
+  }
+
+
+  @media (max-width:1200px) {
+  
+    .feature_1_wrap .feature_desc {
+        padding-right: 2rem;
+        padding-left: 5rem;
+    }
+    .feature_desc h1 {
+        font-size: 2.8rem;
+    }
+    .feature_img {
+        justify-content: flex-start;
+    }
+    .feature_2_wrap .feature_img {
+        padding-left: 5rem;
+    }
+    .feature_2_wrap .feature_desc p {
+        padding-right: 3rem;
+    }
+    .feature_3_wrap .feature_desc {
+        padding-left: 5rem;
+        max-width: 40%;
+    }
+    .feature_4_wrap .feature_desc p {
+        padding-right: 2rem;
+    }
+    .partner_boxs .partner_single h3{
+        font-size: 1.8rem;
+    }
+    .parthners_wrap {
+        border-radius: 43px;
+        margin-left: 4.5rem;
+        margin-right: 4.5rem;
+        padding: 3rem 4.93rem 3.5rem;
+    }
+    .parthners_wrap h2 {
+        max-width: 566px;
+        font-size: 28px;
+        line-height: 139%;
+    }
+    .partnes_company_wrap {
+    
+        padding: 3.5rem 0px;
+    }
+    .footer_middle h1{
+        font-size: 2.8rem;
+    }
+  }
+
+  @media(max-width:1024px){
+    nav.navbar {margin-left: 2rem;margin-right: 2rem;}
+
+
+    .partner_boxs {
+        gap: 1.5rem;
+        display: flex;
+        cursor: grab;
+    }
+    #hero_area_wrap .images img.left_images {
+        left: -81px;
+        width: 73%;
+        top: 2vh;
+    }
+    .hero_content h1 {
+        font-size: 4rem;
+    }
+    .hero_content {
+        padding-top: 35vh;
+    }
+    #hero_area_wrap .images img.right_images {
+        position: absolute;
+        right: 0px;
+        width: 53%;
+        z-index: -7;
+        top: 12rem;
+    }
+    .hero_shape_shadow {
+        position: absolute;
+        left: initial;
+        top: -123px;
+        width: 95vw;
+        z-index: -9979;
+        height: 94vh;
+        right: 0;
+    }
+    #hero_area_wrap .images img.right_images {
+        position: absolute;
+        right: 0px;
+        width: 68%;
+        z-index: -10;
+        top: 45vh;
+    }
+    #blur_sm{
+        background: url('../asstes/shape.png');
+        background-position: right;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+    }
+  }
+
+
+
+  @media(max-width: 768px){
+    .apps_CTA_wrap {
+        margin-top: 30vh;
+    }
+    .feature_img {
+        justify-content: center;
+    }
+    .feature_1_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature_1_wrap .feature_desc {
+       
+        margin-bottom: 2rem;
+    }
+    .feature_2_wrap {
+     
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature_2_wrap .feature_desc {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-bottom: -3rem;
+        z-index: 999;
+    }
+    .feature_2_wrap .feature_img {
+        padding-left: 5rem;
+        justify-content: start;
+    }
+    .feature_2_wrap .feature_img img {
+        width: 88%;
+    }
+    .feature_3_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .feature_3_wrap .feature_desc {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        max-width: 100%;
+        margin-top: -1rem;
+        margin-bottom: 6rem;
+    }
+    .feature_3_wrap .feature_img img {
+        width: 90%;
+    }
+    .feature_3_wrap .feature_img {
+        justify-content: center;
+        max-width: 100%;
+    }
+    .feature_4_wrap {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature_4_wrap .feature_img img {
+        width: 100%;
+        padding-right: 3rem;
+    }
+    .parthners_wrap {
+        border-radius: 43px;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        padding: 2rem 2.93rem 10.5rem;
+    }
+    .parthners_wrap img {
+        position: absolute;
+        width: 58%;
+        z-index: -5;
+        right: 98px;
+        top: inherit;
+        bottom: -81px;
+    }
+    .partner_single.swiper-slide {
+        width: 30% !important;
+    }
+    .footer_top {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2.25rem;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .footer_middle {
+        margin-top: 7rem;
+        padding-left: 0rem;
+        margin-bottom: 7rem;
+    }
+
+    .footer_bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .f_btm_middle {
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+    .back_to_topp {
+   
+        justify-content: center;
+    }
+    ul.soical_links {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    img.feature_3_side_shape {
+        top: -11rem;
+        width: 98%;
+        left: -23rem;
+        z-index: -1;
+    }
+    .img_sm{
+        display: block;
+    }
+    .img_lg{
+        display: none;
+    }
+    a.navbar-brand img {
+        max-width: 44px;
+    }
+    .hero_content h1 {
+        font-size: 2.25rem;
+    }
+    .apple_store small, .play_store small {
+        font-size: 8px;
+        margin-top: 0px;
+        display: block;
+    }
+    .apple_store h6, .play_store h6 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .play_store, .apple_store {
+        gap: 14px;
+        padding: 9px 20px;
+    }
+    #hero_area_wrap .images img.left_images {
+        left: -65px;
+        width: 73%;
+        top: 4vh;
+    }
+    
+  }
+
+
+  @media(max-width: 575px) {
+    #hero_area_wrap .images img.left_images {
+        left: -65px;
+        width: 95%;
+        top: 2vh;
+        z-index: -999999;
+    }
+    #hero_area_wrap .images img.right_images {
+        position: absolute;
+        right: 0px;
+        width: 93%;
+        z-index: -99;
+        top: 39vh;
+    }
+    .hero_shape_shadow {
+        position: absolute;
+        left: initial;
+        top: -157px;
+        width: 140vw;
+        z-index: -999999;
+        height: 93vh;
+        right: 0;
+    }
+    section#verge_desc {
+        margin-top: 9rem;
+        margin-bottom: 10.5rem;
+    }
+
+    .description p, .description p span {
+        font-size: 24px;
+        line-height: 122%;
+        
+    }
+    .description p{
+        padding: 0 .7rem;
+    }
+    .feature_desc h1 {
+        font-size: 35px;
+    }
+    .feature_1_wrap .feature_desc {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .feature_1_wrap .feature_desc p {
+        padding-right: 1rem;
+    }
+    .feature_2_wrap .feature_desc {
+        padding-left: 20px;
+        padding-right: 9px;
+        margin-bottom: -6rem;
+        z-index: 999;
+    }
+    .feature_2_wrap .feature_img {
+        padding-left: 1rem;
+        justify-content: start;
+    }
+    .feature_2_wrap .feature_img img {
+        width: 100%;
+    }
+    .desktop_view{
+        display: none;
+    }
+    .mobile_view{
+        display: block;
+    }
+    img.feature_3_side_shape {
+        top: -5rem;
+        width: 131%;
+        left: -14rem;
+    }
+    .feature_3_wrap .feature_desc {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+        margin-top: -1rem;
+        margin-bottom: 4rem;
+    }
+    .feature_4_wrap .feature_desc {
+        padding-left: 20px;
+    }
+    #features_4 {
+        margin-bottom: 10.87rem;
+    }
+    .parthners_wrap {
+        border-radius: 41px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 2rem 20px 12.5rem;
+    }
+    .parthners_wrap h2 {
+        max-width: 566px;
+        font-size: 24px;
+        line-height: 154%;
+    }
+    .parthners_wrap img {
+        position: absolute;
+        width: 76%;
+        z-index: -5;
+        right: 36px;
+        top: inherit;
+        bottom: -110px;
+    }
+
+    .partnes_company_wrap::after, .partnes_company_wrap::before {
+
+        width: 96px;
+        
+    }
+
+    .footer_menu a.nav-link {
+        padding: 0px 0rem;
+    }
+
+    .footer_container {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
+    .footer_logo img {
+        max-width: 149px;
+    }
+    .footer_top .nav_CTA a.btn {
+        padding: 14px 32px;
+        font-size: 1.125rem;
+    }
+    .footer_middle h1 {
+        font-size: 34px;
+    }
+
+    .footer_middle {
+        margin-top: 5rem;
+        padding-left: 0rem;
+        margin-bottom: 5rem;
+    }
+    .footer_logo img {
+        max-width: 149px;
+    }
+  }
