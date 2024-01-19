@@ -220,10 +220,10 @@ margin-top: 12rem;
         background: #1E1432;
         position: absolute;
         top: -30px;
-        left: 0;
+        left: -8px;
         width: 100vw;
         height: 100vh;
-        padding-top: 3rem;
+        padding-top: 1rem;
         display: none;
     }
     .large_screen_menu{
@@ -252,7 +252,7 @@ margin-top: 12rem;
         font-family: 'RoobertPROReg';
     }
     .mobile_menu li.nav-item .nav-link {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .mobile_menu ul {
@@ -637,6 +637,12 @@ justify-content: center;
     }
     .hero_content h1 {
         font-size: 2.25rem;
+    }
+    .modal-content {
+        padding: 25px 6px 13px 6px;
+        margin-left: 11px;
+        margin-right: 32px;
+        margin-top: 2rem;
     }
   }
 
