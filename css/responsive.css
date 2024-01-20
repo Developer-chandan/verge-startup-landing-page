@@ -193,16 +193,17 @@ margin-top: 12rem;
         padding-left: 13px;
         padding-right: 13px;
         position: fixed;
-        width: 97%;
-        left: 50%;
+        width: 96%;
+        left: 49.50%;
         transform: translateX(-50%);
         height: 71px;
         z-index: 99999;
     }
     button.navbar-toggler {
         position: absolute;
-        right: 18px;
+        right: 20px;
         top: 17px;
+        border: none;
     }
     .nav_CTA {
         display: flex;
@@ -646,7 +647,7 @@ justify-content: center;
     }
   }
 
-  @media(max-width: 350px){
+  @media(max-width: 360px){
     nav.navbar {
         padding-left: 1px;
         padding-right: 7px;
@@ -665,5 +666,7 @@ justify-content: center;
         gap: 10px;
         padding: 8px 15px;
     }
-    
+    button.navbar-toggler {
+        right: 15px;
+    }
   }
