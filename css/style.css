@@ -797,3 +797,27 @@ p.update_text{
 .paperwrap span {
     color: #C2BBD7;
 }
+
+/* div#swiper-wrapper-1ba134b4e3559e106.partner_boxs.swiper-wrapper{
+    animation: scrollleft 20s linear infinite;
+} */
+
+
+
+.partner_boxs.swiper-wrapper {
+    display: flex;
+    animation: slideLeft 20s linear infinite; /* Adjust the duration (10s) as needed */
+  }
+
+
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50%); /* Slide by half the width */
+    }
+    100% {
+      transform: translateX(-100%); /* Replicate items for smooth transition */
+    }
+  }
