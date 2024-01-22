@@ -736,7 +736,9 @@ label.form-check-label a {
     justify-content: end;
 }
 
-
+.paperwrap a {
+    color: #9852fc;
+}
 .papers_container{
     max-width: 1150px;
     margin: 0 auto;
