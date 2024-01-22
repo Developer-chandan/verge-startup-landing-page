@@ -808,7 +808,11 @@ p.update_text{
     display: flex;
     animation: slideLeft 20s linear infinite; /* Adjust the duration (10s) as needed */
   }
-
+  .right_images img,
+  .left_images img {
+    width: 100%;
+}
+ 
 
   @keyframes slideLeft {
     0% {
