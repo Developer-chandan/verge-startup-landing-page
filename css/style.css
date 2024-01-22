@@ -83,6 +83,7 @@ ul.navbar-nav {
 .btn-custom {
     border-radius: 14px;
     background: var(--light-orange);
+    background-color: #FFAB6F;
 }
 
 .btn-custom-radial {
@@ -819,6 +820,12 @@ p.update_text{
     width: 100%;
 }
  
+
+.play_store:hover, 
+.apple_store:hover{
+    background-color: #e1d1ff;
+
+}
 
   @keyframes slideLeft {
     0% {
