@@ -99,7 +99,7 @@ ul.navbar-nav {
     background: var(--purple);
 }
 .nav_CTA .btn-custom{
-    background-color: #FFAB6F;
+    background-color: #FFAB6F !important;
 }
 .btn.btn-custom:hover,
 .btn.btn-custom-radial:hover {
