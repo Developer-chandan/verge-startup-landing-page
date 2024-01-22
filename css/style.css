@@ -98,7 +98,9 @@ ul.navbar-nav {
 .btn.btn-custom-radial:hover {
     background: var(--purple);
 }
-
+.nav_CTA .btn-custom{
+    background-color: #FFAB6F;
+}
 .btn.btn-custom:hover,
 .btn.btn-custom-radial:hover {
     color: var(--white);
