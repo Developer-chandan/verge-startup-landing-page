@@ -486,10 +486,12 @@ img.feature_3_side_shape {
 
 .partner_single.swiper-slide {
     margin-right: 0px !important;
+    width: 270px;
 }
 
 .partnes_company_wrap {
     position: relative;
+    display: flex;
 }
 
 .partnes_company_wrap::after,
@@ -807,22 +809,15 @@ p.update_text{
     color: #C2BBD7;
 }
 
-div#swiper-wrapper-1ba134b4e3559e106.partner_boxs.swiper-wrapper{
-    /* animation: scrollleft 20s linear infinite; */
-    /* transition-timing-function: linear; */
-
-}
-
 
 
 .partner_boxs.swiper-wrapper {
     display: flex;
-    /* animation: slideLeft 20s linear infinite;
-    animation: slideLeft 10s linear infinite; */
-        /* transition-timing-function:  linear; */
-
+    animation: slideLeft 20s linear infinite; 
 
   }
+
+
   .right_images img,
   .left_images img {
     width: 100%;
@@ -834,19 +829,17 @@ div#swiper-wrapper-1ba134b4e3559e106.partner_boxs.swiper-wrapper{
     background-color: #e1d1ff;
 
 }
-/* 
-  @keyframes slideLeft {
- 
-    100% {
-      transform: translateX(-50%); 
+
+
+
+
+ @keyframes slideLeft {
+    form{
+        transform: translateX(0)
     }
-  } */
+to{
+    transform: translateX(-100%)
 
-  /* .sample-slider .swiper-wrapper{
-    transition-timing-function: linear;
-} */
+}
 
-  /* @keyframes slideLeft {
-    100% { transform: translateX(-100%) }
-
-} */
+}
