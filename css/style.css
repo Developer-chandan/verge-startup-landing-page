@@ -833,10 +833,8 @@ p.update_text{
     0% {
       transform: translateX(0);
     }
-    50% {
-      transform: translateX(-50%); /* Slide by half the width */
-    }
+   
     100% {
-      transform: translateX(-100%); /* Replicate items for smooth transition */
+      transform: translateX(-50%); 
     }
   }
