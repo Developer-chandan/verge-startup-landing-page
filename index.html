@@ -61,7 +61,7 @@
         <!-- large screen CTA start -->
         <div class="nav_CTA">
           <a href="#" class="btn btn-custom" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-            onclick="hideMenu()">Contact</a>
+            onclick="hideMenu()" style="background-color: #FFAB6F;">Contact</a>
           <a href="#" class="btn btn-custom-radial">For Venues</a>
         </div> <!-- mobile screen CTA end -->
         <!-- mobile screen CTA start -->
@@ -584,11 +584,10 @@
       slidesPerView: 6,
       spaceBetween: 30,
       loop: true,
-      lazy: true,
-      // autoplay: {
-      //   delay: false,
-      // },
-      // speed: 3000, 
+      autoplay: {
+        delay: 0,
+      },
+      speed: 5000, 
     });
 
   </script>

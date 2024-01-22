@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loop-slide {
+            overflow: hidden;
+        }
+        .loop-slide > div:hover{
+            animation-play-state: paused;
+        }
+        .loop-slide > div {
+            display: flex;
+            animation: slide-to-left 10s linear infinite reverse;
+        }
+        .loop-slide > div > * {
+            min-width: calc(100% / var(--slideToShow));
+        }
+        @keyframes slide-to-left {
+            100% { transform: translateX(calc(-100% * (var(--slideNum) / var(--slideToShow)))) }
+        }
+    </style>
+    
+</head>
+<body>
+   
+    <div class="loop-slide" style="--slideToShow:6; --slideNum:8;">
+        <div>
+          <p>slider - 1</p>
+          <p>slider - 2</p>
+          <p>slider - 3</p>
+          <p>slider - 4</p>
+          <p>slider - 5</p>
+          <p>slider - 6</p>
+          <p>slider - 7</p>
+        </div>
+    </div>
+    
+</body>
+</html>
