@@ -167,7 +167,14 @@
   .modal-body {
       padding: 4px 11px;
   }
-
+  section#terms_wrapp {
+    padding: 0 1rem;
+    padding-top: 8rem;
+ 
+}
+.stripe_link a{
+  font-size: 14px;
+}
 }
 @media (max-width: 360px) {
   nav.navbar { padding-left: 1px; padding-right: 7px; }
@@ -175,4 +182,7 @@
   .apps_CTA_wrap { gap: 10px; }
   .play_store, .apple_store { gap: 10px; padding: 8px 15px; }
   button.navbar-toggler { right: 15px; }
+  .stripe_link a{
+    font-size: 12px;
+  }
 }

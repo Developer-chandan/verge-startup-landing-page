@@ -831,7 +831,9 @@ p.update_text{
 }
 
 
-
+.rules span {
+    color: #C2BBD7;
+}
 
  @keyframes slideLeft {
     form{
